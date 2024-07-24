@@ -248,7 +248,8 @@
 }
 
 .about {
-  padding: 146px 24px 180px;
+  margin-top: 146px;
+  padding: 35px 24px 180px;
   display: grid;
   grid-template-columns: 359px auto;
   gap: 25px;
@@ -294,7 +295,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
-  margin: 180px 50px 88px;
+  margin: 180px 26px 88px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
