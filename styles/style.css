@@ -315,11 +315,10 @@
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  
 }
 
-.footer__link{
-  text-decoration: underline; 
+.footer__link {
+  text-decoration: underline;
 }
 
 .footer__social-list-item {
