@@ -63,7 +63,7 @@
 }
 
 .cover {
-  padding-bottom: 51px;
+  padding-bottom: 39px;
   min-height: 757px;
   background-image: url("../images/cover.jpg");
   background-size: cover;
@@ -78,53 +78,43 @@
 }
 
 .cover_title {
-  padding: 165px 50px 147px;
+  justify-content: space-between;
+  padding: 165px 50px 125px;
   color: rgb(255, 255, 255);
   font-weight: 700;
   font-size: 100px;
+  line-height:115%;
+  letter-spacing: 30px;
   text-transform: uppercase;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  justify-content: space-between;
-  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px 36px;
 }
 
 .aligned-text {
-  line-height: 115px;
   display: block;
-  letter-spacing: 35px;
-  grid-column-start: 1;
-  grid-column-end: span 2;
+  width: 100%;
+  grid-column: 1/4;
   z-index: 2;
 }
 
 .aligned-text_center {
-  line-height: 100px;
-  display: block;
-  letter-spacing: 35px;
-  grid-column-start: 2;
-  grid-column-end: span 3;
-  justify-self: center;
-  align-self: end;
+  grid-column: 2/4;
   z-index: 2;
 }
 
 .aligned-text_right {
-  line-height: 100px;
-  display: block;
-  grid-column-start: 4;
-  grid-column-end: span 2;
-  justify-self: right;
-  align-self: end;
+  grid-column: 3/4;
   z-index: 2;
 }
 
 .letter-spacing-extended {
-  letter-spacing: 55px;
+  letter-spacing: 60px;
 }
 
 .no-letter-spacing {
-  letter-spacing: normal;
+  letter-spacing: normal; 
 }
 
 .cover__description {
@@ -165,12 +155,11 @@
 
 .lots {
   width: 1052px;
-  margin: 179px 24px 0 24px;
+  margin: 180px 24px 0 24px;
 }
 
 .lots__heading {
-  padding-left: 40px;
-  padding-bottom: 27px;
+  padding: 0 891px 27px 40px;
   font-size: 40px;
   font-weight: 700;
   line-height: 46.96px;
@@ -240,6 +229,8 @@
 
 .lots__look-more-link {
   margin: 30px 102px 0 40px;
+  font-size: 20px;
+  line-height: 23.48px;
   text-decoration: none;
   border-bottom: 1px solid rgba(0, 0, 0, 1);
   max-width: fit-content;
@@ -250,7 +241,7 @@
   padding: 35px 24px 0;
   display: grid;
   grid-template-columns: 359px auto;
-  gap: 25px;
+  gap: 14px;
   place-content: space-between start;
   box-sizing: content-box;
 }
@@ -284,9 +275,19 @@
 .about__text {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 24px;
+  min-height: 312;
+}
+
+.about__text-first {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 20.2px;
+}
+
+.about__text-second {
+  font-weight: 400;
+  font-size: 19.7px;
+  line-height: 24px;
 }
 
 .footer {
