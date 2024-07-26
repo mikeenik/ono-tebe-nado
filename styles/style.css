@@ -2,20 +2,19 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 21.13px;
-  padding: 92px 24px 96px;
+  padding: 92px 49.58px 96px 50.52px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
 }
 
 .header__menu {
   justify-self: start;
-  width: 391.48px;
 }
 
 .header__links-list {
   display: flex;
-  gap: 30px;
+  gap: 31px;
 }
 
 .header__links-list-item {
@@ -27,7 +26,10 @@
 }
 
 .header__link {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  border-bottom: 1px solid rgba(0, 0, 0);
+  letter-spacing: 0.2px;
+
 }
 
 .header__link_active {
@@ -44,19 +46,20 @@
 }
 
 .address {
-  width: 241px;
-  line-height: 24px;
+  width: 240.52px;
+  line-height: 24.3px;
   font-style: normal;
 }
 
 .header__address {
   justify-self: end;
+  text-align: left;
 }
 
 .address__link {
   text-decoration: none;
   border-bottom: 1px solid rgba(0, 0, 0);
-  padding-bottom: 1px;
+  letter-spacing: 0.1px;
 }
 
 .cover {
@@ -81,7 +84,6 @@
   font-size: 100px;
   text-transform: uppercase;
   display: grid;
-  letter-spacing: 16px;
   grid-template-columns: repeat(5, 1fr);
   justify-content: space-between;
   gap: 20px;
@@ -90,6 +92,7 @@
 .aligned-text {
   line-height: 115px;
   display: block;
+  letter-spacing: 35px;
   grid-column-start: 1;
   grid-column-end: span 2;
   z-index: 2;
@@ -98,9 +101,11 @@
 .aligned-text_center {
   line-height: 100px;
   display: block;
+  letter-spacing: 35px;
   grid-column-start: 2;
   grid-column-end: span 3;
   justify-self: center;
+  letter-spacing: 26px;
   align-self: end;
   z-index: 2;
 }
@@ -116,7 +121,7 @@
 }
 
 .letter-spacing-extended {
-  letter-spacing: 0.6em;
+  letter-spacing: 55px;
 }
 
 .no-letter-spacing {
@@ -161,7 +166,6 @@
 
 .lots {
   width: 1052px;
-  min-height: 692px;
   margin: 179px 24px 0 24px;
 }
 
