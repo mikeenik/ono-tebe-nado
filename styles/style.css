@@ -152,12 +152,11 @@
 }
 
 .lots {
-  width: 1052px;
-  margin: 180px 24px 0 24px;
+  padding: 163px 33px 174px 33px;
 }
 
 .lots__heading {
-  padding: 0 891px 27px 40px;
+  padding: 0 27px 37px;;
   font-size: 40px;
   font-weight: 700;
   line-height: 46.96px;
@@ -274,15 +273,6 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  min-height: 312;
-}
-
-.about__text-first {
-  font-weight: 400;
-  font-size: 20.2px;
-}
-
-.about__text-second {
   font-weight: 400;
   font-size: 19.7px;
   line-height: 24px;
