@@ -172,7 +172,6 @@
 .lots__card-list-item {
   flex-grow: 1;
   width: 334px;
-  /* min-height: 554px; */
 }
 
 .card-link {
@@ -221,7 +220,6 @@
   color: rgba(255, 255, 255, 1);
   z-index: 1;
   padding: 0 40px 48px;
-  /* letter-spacing: 1px; */
 }
 
 .lots__look-more-link {
